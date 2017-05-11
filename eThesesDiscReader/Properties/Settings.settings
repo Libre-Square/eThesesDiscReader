@@ -1,0 +1,36 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="eThesesDiscReader.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="InstanceName" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="ContentPath" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="PythonPath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">lib\WinPython\python\python.exe</Value>
+    </Setting>
+    <Setting Name="PDFMinerPath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">lib\WinPython\python\Scripts\pdf2txt.py</Value>
+    </Setting>
+    <Setting Name="UseAdobeReader" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="EnableOCR" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="GhostscriptPath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">lib\Ghostscript\bin\gswin32.exe</Value>
+    </Setting>
+    <Setting Name="TesseractPath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">lib\Tesseract-ocr\tesseract.exe</Value>
+    </Setting>
+    <Setting Name="DBPath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Y:\rsdiconversion\db\ethesis2016.db3</Value>
+    </Setting>
+    <Setting Name="StoragePath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Y:\rsdiconversion\contents</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

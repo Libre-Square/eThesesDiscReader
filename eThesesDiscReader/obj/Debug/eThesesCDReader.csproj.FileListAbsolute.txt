@@ -1,0 +1,9 @@
+c:\users\wkchan_lib\documents\visual studio 2015\Projects\eThesesCDReader\eThesesCDReader\bin\Debug\eThesesCDReader.exe.config
+c:\users\wkchan_lib\documents\visual studio 2015\Projects\eThesesCDReader\eThesesCDReader\bin\Debug\eThesesCDReader.exe
+c:\users\wkchan_lib\documents\visual studio 2015\Projects\eThesesCDReader\eThesesCDReader\bin\Debug\eThesesCDReader.pdb
+c:\users\wkchan_lib\documents\visual studio 2015\Projects\eThesesCDReader\eThesesCDReader\obj\Debug\eThesesCDReader.csprojResolveAssemblyReference.cache
+c:\users\wkchan_lib\documents\visual studio 2015\Projects\eThesesCDReader\eThesesCDReader\obj\Debug\eThesesCDReader.Properties.Resources.resources
+c:\users\wkchan_lib\documents\visual studio 2015\Projects\eThesesCDReader\eThesesCDReader\obj\Debug\eThesesCDReader.csproj.GenerateResource.Cache
+c:\users\wkchan_lib\documents\visual studio 2015\Projects\eThesesCDReader\eThesesCDReader\obj\Debug\eThesesCDReader.exe
+c:\users\wkchan_lib\documents\visual studio 2015\Projects\eThesesCDReader\eThesesCDReader\obj\Debug\eThesesCDReader.pdb
+c:\users\wkchan_lib\documents\visual studio 2015\Projects\eThesesCDReader\eThesesCDReader\obj\Debug\eThesesCDReader.Form1.resources
