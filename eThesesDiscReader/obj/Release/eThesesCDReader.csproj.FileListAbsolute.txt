@@ -1,8 +1,0 @@
-c:\users\wkchan_lib\documents\visual studio 2015\Projects\eThesesCDReader\eThesesCDReader\bin\Release\eThesesCDReader.exe.config
-c:\users\wkchan_lib\documents\visual studio 2015\Projects\eThesesCDReader\eThesesCDReader\bin\Release\eThesesCDReader.exe
-c:\users\wkchan_lib\documents\visual studio 2015\Projects\eThesesCDReader\eThesesCDReader\bin\Release\eThesesCDReader.pdb
-c:\users\wkchan_lib\documents\visual studio 2015\Projects\eThesesCDReader\eThesesCDReader\obj\Release\eThesesCDReader.Form1.resources
-c:\users\wkchan_lib\documents\visual studio 2015\Projects\eThesesCDReader\eThesesCDReader\obj\Release\eThesesCDReader.Properties.Resources.resources
-c:\users\wkchan_lib\documents\visual studio 2015\Projects\eThesesCDReader\eThesesCDReader\obj\Release\eThesesCDReader.csproj.GenerateResource.Cache
-c:\users\wkchan_lib\documents\visual studio 2015\Projects\eThesesCDReader\eThesesCDReader\obj\Release\eThesesCDReader.exe
-c:\users\wkchan_lib\documents\visual studio 2015\Projects\eThesesCDReader\eThesesCDReader\obj\Release\eThesesCDReader.pdb

@@ -36,9 +36,18 @@ namespace eThesesDiscReader.Controls
         {
             try
             {
-                ViewModel.getInstance().ProgressBarColor = Color.Yellow;
                 ViewModel viewModel = ViewModel.getInstance();
                 viewModel.ProgressBar.Maximum = 200;
+                viewModel.ProgressBarColor = Color.Yellow;
+            }
+            finally
+            {
+                // Ignore
+            }
+
+            try
+            {
+                ViewModel viewModel = ViewModel.getInstance();
                 viewModel.AllowInput(false);
                 viewModel.MenuButtonEnabled = false;
                 FileUtils.CleanUpTemp();
@@ -54,7 +63,6 @@ namespace eThesesDiscReader.Controls
                 alert(e.StackTrace, e.Message, MessageBoxButtons.OK, MessageBoxIcon.Error);
                 ViewModel.getInstance().MenuButtonEnabled = true;
             }
-            
         }
 
         public void selectionChanged()

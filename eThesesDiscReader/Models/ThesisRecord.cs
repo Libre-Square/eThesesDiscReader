@@ -474,6 +474,10 @@ namespace eThesesDiscReader.Models
         {
             if (!_enableValidation)
                 return;
+
+            // Prevent loop
+            _enableValidation = false;
+
             Color EMPTY_VALUE_COLOR = Color.Yellow;
             Color CONFLICT_VALUE_COLOR = Color.Pink;
             Color MATCH_VALUE_COLOR = Color.LightGreen;
@@ -610,6 +614,9 @@ namespace eThesesDiscReader.Models
             else
                 thesisRecord.ReceivedDate = DateTime.Now;
             viewModel.ReceivedDateInputColor = EMPTY_VALUE_COLOR;
+
+            // Prevent loop
+            _enableValidation = true;
         }
 
         public override string ToString()
