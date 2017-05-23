@@ -1364,8 +1364,6 @@
         private System.Windows.Forms.TextBox tesseractPathTextBox;
         private System.Windows.Forms.BindingSource readerConfigBindingSource;
         private System.Windows.Forms.ListBox fileSelectListBox;
-        private TransparentTextBox consoleTextBox;
-        private TransparentTextBox consoleInputTextBox;
         private System.Windows.Forms.PictureBox iconPictureBox;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label16;

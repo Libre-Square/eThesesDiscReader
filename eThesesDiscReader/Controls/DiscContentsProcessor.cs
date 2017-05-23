@@ -37,17 +37,8 @@ namespace eThesesDiscReader.Controls
             try
             {
                 ViewModel viewModel = ViewModel.getInstance();
-                viewModel.ProgressBar.Maximum = 200;
+                viewModel.ProgressBar.SetMaximum(200);
                 viewModel.ProgressBarColor = Color.Yellow;
-            }
-            finally
-            {
-                // Ignore
-            }
-
-            try
-            {
-                ViewModel viewModel = ViewModel.getInstance();
                 viewModel.AllowInput(false);
                 viewModel.MenuButtonEnabled = false;
                 FileUtils.CleanUpTemp();

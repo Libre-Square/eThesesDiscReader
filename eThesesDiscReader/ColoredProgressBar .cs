@@ -11,6 +11,8 @@ namespace eThesesDiscReader
 {
     public class ColoredProgressBar : ProgressBar
     {
+        delegate void SetMaximumCallback(int value);
+
         public void SetColor(Color color)
         {
             int state = 1;
@@ -24,6 +26,19 @@ namespace eThesesDiscReader
         public void SetValue(long value)
         {
             ModifyProgressBar.SetValue(this, value);
+        }
+
+        public void SetMaximum(int value)
+        {
+            if (this.InvokeRequired)
+            {
+                SetMaximumCallback cb = new SetMaximumCallback(SetMaximum);
+                this.Invoke(cb, new object[] { value });
+            }
+            else
+            {
+                this.Maximum = (int)value;
+            }
         }
     }
 

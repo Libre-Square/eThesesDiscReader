@@ -597,7 +597,7 @@ namespace eThesesDiscReader.Models
             // Access
             if (String.IsNullOrEmpty(thesisRecord.AccessMode) && String.IsNullOrEmpty(invRecord.Access))
             {
-                thesisRecord.AccessMode = InventoryStore.ACCESS_MODE_RESTRICTED_KEY;
+                thesisRecord.AccessMode = InventoryStore.AccessModeMap[InventoryStore.ACCESS_MODE_RESTRICTED_KEY];
                 viewModel.AccessInputColor = CONFLICT_VALUE_COLOR;
             }
             else if (String.IsNullOrEmpty(thesisRecord.AccessMode) && !String.IsNullOrEmpty(invRecord.Access))
@@ -609,11 +609,18 @@ namespace eThesesDiscReader.Models
                 viewModel.AccessInputColor = thesisRecord.AccessMode.Equals(invRecord.Access) ? MATCH_VALUE_COLOR : CONFLICT_VALUE_COLOR;
 
             // Received Date
-            if (invRecord.Received != null)
-                thesisRecord.ReceivedDate = DateTime.ParseExact(invRecord.Received, DiscContentsProcessor.DEFAULT_DATE_FORMAT, CultureInfo.InvariantCulture);
-            else
+            if (thesisRecord.ReceivedDate == null && invRecord.Received == null)
+            {
                 thesisRecord.ReceivedDate = DateTime.Now;
-            viewModel.ReceivedDateInputColor = EMPTY_VALUE_COLOR;
+                viewModel.ReceivedDateInputColor = CONFLICT_VALUE_COLOR;
+            }
+            else if (thesisRecord.ReceivedDate == null && invRecord.Received != null)
+            {
+                thesisRecord.ReceivedDate = DateTime.ParseExact(invRecord.Received, DiscContentsProcessor.DEFAULT_DATE_FORMAT, CultureInfo.InvariantCulture);
+                viewModel.ReceivedDateInputColor = EMPTY_VALUE_COLOR;
+            }
+            else
+                viewModel.ReceivedDateInputColor = thesisRecord.ReceivedDate.Equals(invRecord.Received) ? MATCH_VALUE_COLOR : CONFLICT_VALUE_COLOR;
 
             // Prevent loop
             _enableValidation = true;
