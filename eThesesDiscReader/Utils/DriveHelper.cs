@@ -25,7 +25,7 @@ namespace eThesesDiscReader.Utils
             Process p = null;
             try
             {
-                p = Process.Start("cmd.exe", "/C net use " + STORAGE_DRIVE_PATH + STORAGE_DRIVE_PASSWORD + " /USER:" + STORAGE_DRIVE_USER_ID);
+                p = Process.Start("cmd.exe", "/C net use " + STORAGE_DRIVE_PATH + " " + STORAGE_DRIVE_PASSWORD + " /USER:" + STORAGE_DRIVE_USER_ID);
                 while (!p.WaitForExit(1000))
                 {
                     //wait

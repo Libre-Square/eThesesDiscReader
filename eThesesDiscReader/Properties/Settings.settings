@@ -27,10 +27,10 @@
       <Value Profile="(Default)">lib\Tesseract-ocr\tesseract.exe</Value>
     </Setting>
     <Setting Name="DBPath" Type="System.String" Scope="User">
-      <Value Profile="(Default)">Y:\rsdiconversion\db\ethesis2016.db3</Value>
+      <Value Profile="(Default)">\\rsdi-ns01.lib.cuhk.edu.hk\etd\rsdiconversion\db\ethesis2016.db3</Value>
     </Setting>
     <Setting Name="StoragePath" Type="System.String" Scope="User">
-      <Value Profile="(Default)">Y:\rsdiconversion\contents</Value>
+      <Value Profile="(Default)">\\rsdi-ns01.lib.cuhk.edu.hk\etd\rsdiconversion\contents</Value>
     </Setting>
   </Settings>
 </SettingsFile>

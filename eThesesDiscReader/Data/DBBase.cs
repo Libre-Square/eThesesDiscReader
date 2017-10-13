@@ -91,7 +91,7 @@ namespace eThesesDiscReader.Data
         {
             string dbFilePath = ReaderConfig.getInstance().DBPath;
             if (dbFilePath != null && File.Exists(dbFilePath))
-                return new SQLiteConnection(@"Data Source=" + dbFilePath + @";Version=3;");
+                return new SQLiteConnection(@"Data Source=" + dbFilePath + @";Version=3;", true);
             return null;
         }
 

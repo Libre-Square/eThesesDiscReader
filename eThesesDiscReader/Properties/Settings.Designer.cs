@@ -121,7 +121,7 @@ namespace eThesesDiscReader.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("Y:\\rsdiconversion\\db\\ethesis2016.db3")]
+        [global::System.Configuration.DefaultSettingValueAttribute("\\\\rsdi-ns01.lib.cuhk.edu.hk\\etd\\rsdiconversion\\db\\ethesis2016.db3")]
         public string DBPath {
             get {
                 return ((string)(this["DBPath"]));
@@ -133,7 +133,7 @@ namespace eThesesDiscReader.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("Y:\\rsdiconversion\\contents")]
+        [global::System.Configuration.DefaultSettingValueAttribute("\\\\rsdi-ns01.lib.cuhk.edu.hk\\etd\\rsdiconversion\\contents")]
         public string StoragePath {
             get {
                 return ((string)(this["StoragePath"]));
